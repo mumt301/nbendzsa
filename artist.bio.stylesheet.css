@@ -1,0 +1,38 @@
+body {
+    background-image: url(guitar.png), linear-gradient(palegoldenrod, powderblue); 
+    background-position: right bottom,right top;
+    background-repeat: repeat-y, no-repeat;
+    color: navy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    overflow: hidden;
+}
+h1, h2 {
+    color: lavender;
+}
+#bio{
+    border-style: outset; 
+    border-color: lavender;
+    background-color: palevioletred;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:palevioletred; opacity: 0.6;
+  }
+  
+  li {
+    float: left;
+  }
+  li a {
+    display: inline-block;
+    color: palegoldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+   li a:hover {
+    background-color: palevioletred;
+}
