@@ -1,19 +1,19 @@
 html,body {
     overflow: visible;
+    min-height: 100px;
     }
-body {
-    background-image: linear-gradient(palegoldenrod, powderblue); 
-    background-position: right top;
-    background-repeat: no-repeat;
-    color: navy;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: larger;
-    overflow: hidden;
+    body {
+        background-image: url(keyboard.png), linear-gradient(palegoldenrod, powderblue); 
+        background-position: left bottom,right top;
+        background-repeat: repeat-x, no-repeat;
+        color: navy;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: larger;
 }
 h1, h2 {
     color: lavender;
 }
-#bio{
+#music {
     border-style: outset; 
     border-color: lavender;
     background-color: palevioletred;
@@ -38,9 +38,9 @@ ul {
   }
    li a:hover {
     background-color: palevioletred;
-}
-#live{
-    position: fixed;
+   }
+#numb {
+    float: right;
     border-width: 10px;
     border-style: double;
     border-color: palevioletred;
@@ -48,19 +48,12 @@ ul {
     background-color: navy;
     padding: 0.5cm;
 }
-#guitar{
-    transform: skewY(20deg);
-    position: relative;
-    bottom: 20px;
-    right: 15px;
-}
-.bandname{
-    color: palevioletred;
-    font-style: oblique;
-    font-size: large;
-}
-.member{
-    color: plum;
-    font-style: italic;
-    font-size: large;
+#spotify {
+    float: left;
+    border-width: 10px;
+    border-style: double;
+    border-color: palevioletred;
+    width:fit-content;
+    background-color: navy;
+    padding: 0.5cm;
 }
