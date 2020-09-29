@@ -1,6 +1,6 @@
 html,body {
     overflow: visible;
-    min-height: 100px;
+    max-width: 100%;
     }
     body {
         background-image: url(keyboard.png), linear-gradient(palegoldenrod, powderblue); 
@@ -40,7 +40,9 @@ ul {
     background-color: palevioletred;
    }
 #numb {
-    float: right;
+    float: left;
+    margin-left: 120px;
+    margin-top: 55px;
     border-width: 10px;
     border-style: double;
     border-color: palevioletred;
