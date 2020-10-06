@@ -1,0 +1,13 @@
+html,body {
+    overflow: visible;
+    max-width: 100%;
+    }
+body {
+    background-image: linear-gradient(palegoldenrod, powderblue); 
+    background-position: right top;
+    background-repeat: no-repeat;
+    color: navy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    min-height: 100px;
+}

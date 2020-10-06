@@ -1,5 +1,6 @@
 html,body {
     overflow: visible;
+    max-width: 100%;
     }
 body {
     background-image: linear-gradient(palegoldenrod, powderblue); 
@@ -8,7 +9,7 @@ body {
     color: navy;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
-    overflow: hidden;
+    min-height: 100px;
 }
 h1, h2 {
     color: lavender;
