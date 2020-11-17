@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Assignment 4</title>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+       <div>
+        <h1>MusicBrainz API Call</h1>
+        <form id="artist" method="GET">
+            <label for="name">Enter Artist Name</label>
+            <input type="text" name="artist" id="name">
+            <input type="submit" value="Click to retrieve release data!">
+        </form>
+    </div>
+
+    <p id="placeholder"> 
+        <table>
+            <tbody>
+                <tr>
+                    <th>Album Title</th>
+                    <th>Released Date</th>
+                </tr>
+            </tbody>
+        </table>
+    </p>
+        <script src="MusicBrainz.js"></script>
+        <p><a href="index.html">Home</a></p>
+    </body>
+</html>

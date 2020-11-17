@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>exercise1</title>
+    
+    </head>
+    <body>
+        <h1>in class exercise</h1>
+        <form>
+            <label for="n1">City:</label>
+            <input type="text" name="city" id="n1">
+            <input type="submit">
+        </form>
+
+        <p id="theresult"></p>
+
+        <script>
+            // JavaScript 
+            function generate_results() {
+                let params = (new URL (document.location)).searchParams
+                let city = params.get('city');
+                console.log(city)
+                // Fill in the placeholder element
+                let placeholder = document.getElementById('theresult');
+                placeholder.innerHTML = 'The city you are searching for is ${city}';
+            }
+            window.onload = generate_results();
+        </script>
+    </body>
+</html>
