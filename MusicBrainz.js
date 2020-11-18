@@ -68,7 +68,4 @@ function getAlbums(xhttp) {
     }
     tableHTML += `</table>`; placeholder.innerHTML = tableHTML;   
 }
-
-
-
  window.onload = queryArtist;
