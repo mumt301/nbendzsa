@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Last.fm API Call</title>
+        <link rel="stylesheet" href="https://minicss.org/flavorFiles/mini-default.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            h{
+                font-size: larger;
+                font-style: italic;
+                color: navy;
+                background-color: teal;
+            }
+            p{
+                border-color: black;
+                border: outset;
+                background-color: cadetblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Type the name of an artist you love:</h1>
+
+        <form method="GET" style="background-color: teal;">
+            <label for="artist">Artist Name:</label>
+            <input type="text" name="artistName" id="artist">
+            <br>
+            <label for="track">Track Name:</label>
+            <input type="text" name="trackName" id="track">
+            <br>
+            <input type="submit">
+            
+        </form>
+        <br>
+        <div id="bioContainer">
+        </div>
+        <script src="Assignment7.js"></script>
+    </body>
+    <p><a href="index.html">Home</a></p>
+   
+</html>
